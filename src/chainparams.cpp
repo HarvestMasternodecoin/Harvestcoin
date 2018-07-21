@@ -105,7 +105,10 @@ public:
 
 		vSeeds.push_back(CDNSSeedData("0", "107.170.198.173"));
 		vSeeds.push_back(CDNSSeedData("1", "192.81.214.238"));
-		vSeeds.push_back(CDNSSeedData("2",  "159.203.35.209"));
+		vSeeds.push_back(CDNSSeedData("2", "159.203.35.209"));
+		vSeeds.push_back(CDNSSeedData("3", "159.203.97.37"));
+		vSeeds.push_back(CDNSSeedData("4", "159.89.151.78"));
+		vSeeds.push_back(CDNSSeedData("5", "46.101.78.34"));
 		convertSeeds(vFixedSeeds, pnSeed, ARRAYLEN(pnSeed), nDefaultPort);
 
 		nPoolMaxTransactions = 3;
